@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    padding: 4rem 2rem;
+}
+
+.container {
+    max-width: 80rem;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 3.2rem;
+}
+
+.form-card,
+.users-card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.12);
+    margin-bottom: 3rem;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: .8rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.6rem;
+    border: 1px solid #bbb;
+    border-radius: .6rem;
+}
+
+button {
+    width: 100%;
+    padding: 1.3rem;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: .6rem;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+#message {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    min-height: 2.5rem;
+}
+
+.users-card h2 {
+    margin-bottom: 1rem;
+    font-size: 2.4rem;
+}
+
+#user-count {
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+}
+
+#users-list {
+    list-style: none;
+}
+
+#users-list li {
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+    background: #eef4ff;
+    border-radius: .6rem;
+    font-size: 1.6rem;
+}

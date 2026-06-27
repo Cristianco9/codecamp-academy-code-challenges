@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Challenge 10 - Book Collection Manager</title>
+
+    <link
+        rel="stylesheet"
+        href="./challenge-10.css"
+    >
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- ==========================
+             HEADER
+        ========================== -->
+
+        <header class="header">
+
+            <h1>Book Collection Manager</h1>
+
+            <p>
+                Register your favorite books and organize your
+                personal library.
+            </p>
+
+        </header>
+
+        <!-- ==========================
+             BOOK FORM
+        ========================== -->
+
+        <section class="card">
+
+            <h2>Add a New Book</h2>
+
+            <div class="form-group">
+
+                <label for="title">
+                    Book Title
+                </label>
+
+                <input
+                    type="text"
+                    id="title"
+                    placeholder="Enter the book title"
+                >
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="author">
+                    Author
+                </label>
+
+                <input
+                    type="text"
+                    id="author"
+                    placeholder="Enter the author's name"
+                >
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="pages">
+                    Number of Pages
+                </label>
+
+                <input
+                    type="number"
+                    id="pages"
+                    placeholder="Enter the number of pages"
+                >
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="status">
+                    Reading Status
+                </label>
+
+                <select id="status">
+
+                    <option value="">
+                        Select a status
+                    </option>
+
+                    <option value="Read">
+                        Read
+                    </option>
+
+                    <option value="Not Read">
+                        Not Read
+                    </option>
+
+                </select>
+
+            </div>
+
+            <button id="add-book-btn">
+                Add Book
+            </button>
+
+            <p id="message"></p>
+
+        </section>
+
+        <!-- ==========================
+             DASHBOARD
+        ========================== -->
+
+        <section class="summary">
+
+            <article class="summary-card">
+
+                <h3>Total Books</h3>
+
+                <p id="total-books">
+                    0
+                </p>
+
+            </article>
+
+            <article class="summary-card">
+
+                <h3>Books Read</h3>
+
+                <p id="books-read">
+                    0
+                </p>
+
+            </article>
+
+            <article class="summary-card">
+
+                <h3>Books Not Read</h3>
+
+                <p id="books-not-read">
+                    0
+                </p>
+
+            </article>
+
+        </section>
+
+        <!-- ==========================
+             BOOK COLLECTION
+        ========================== -->
+
+        <section class="card">
+
+            <h2>My Book Collection</h2>
+
+            <div
+                id="book-list"
+                class="book-list"
+            >
+
+                <p class="empty-message">
+                    No books have been added yet.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script
+        src="./challenge-10.js"
+    ></script>
+
+</body>
+
+</html>

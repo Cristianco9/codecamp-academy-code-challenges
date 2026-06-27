@@ -1,0 +1,254 @@
+/* ==========================
+   RESET
+========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+}
+
+/* ==========================
+   LAYOUT
+========================== */
+
+.container {
+    max-width: 110rem;
+    margin: 4rem auto;
+    padding: 0 2rem 4rem;
+}
+
+/* ==========================
+   HEADER
+========================== */
+
+.header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.header h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.header p {
+    font-size: 1.8rem;
+    color: #666;
+}
+
+/* ==========================
+   CARDS
+========================== */
+
+.card {
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 2.5rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 .6rem 1.5rem rgba(0, 0, 0, .08);
+}
+
+.card h2 {
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+}
+
+/* ==========================
+   FORM
+========================== */
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.form-group label {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: .8rem;
+}
+
+.form-group input,
+.form-group select {
+    padding: 1.2rem;
+    font-size: 1.6rem;
+    border: 1px solid #c9c9c9;
+    border-radius: .8rem;
+    outline: none;
+    transition: .2s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #2563eb;
+}
+
+button {
+    width: 100%;
+    padding: 1.4rem;
+    border: none;
+    border-radius: .8rem;
+    background-color: #2563eb;
+    color: white;
+    font-size: 1.7rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+#message {
+    margin-top: 2rem;
+    min-height: 2.4rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+/* ==========================
+   SUMMARY
+========================== */
+
+.summary {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.summary-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 0 .6rem 1.5rem rgba(0, 0, 0, .08);
+}
+
+.summary-card h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.summary-card p {
+    font-size: 3.6rem;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+/* ==========================
+   BOOK LIST
+========================== */
+
+.book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    gap: 2rem;
+}
+
+/* ==========================
+   BOOK CARD
+========================== */
+
+.book {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5rem;
+    background-color: #fafafa;
+    border-radius: 1rem;
+    padding: 2rem;
+    border-left: .8rem solid #2563eb;
+    box-shadow: 0 .4rem 1rem rgba(0,0,0,.05);
+}
+
+.book h3 {
+    font-size: 2.1rem;
+    color: #222;
+}
+
+.book p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.book strong {
+    color: #444;
+}
+
+/* ==========================
+   STATUS
+========================== */
+
+.status {
+    display: inline-block;
+    padding: .6rem 1.4rem;
+    border-radius: 2rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    width: fit-content;
+}
+
+.status-read {
+    background-color: #dcfce7;
+    color: #15803d;
+}
+
+.status-not-read {
+    background-color: #fee2e2;
+    color: #b91c1c;
+}
+
+/* ==========================
+   EMPTY STATE
+========================== */
+
+.empty-message {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #777;
+    padding: 5rem 2rem;
+    background-color: #fafafa;
+    border-radius: 1rem;
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media (max-width: 900px) {
+
+    .summary {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    html {
+        font-size: 58%;
+    }
+
+    .header h1 {
+        font-size: 3.2rem;
+    }
+
+    .book-list {
+        grid-template-columns: 1fr;
+    }
+
+}

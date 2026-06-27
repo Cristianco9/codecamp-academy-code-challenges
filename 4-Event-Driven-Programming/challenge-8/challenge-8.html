@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 8 - Shopping Cart</title>
+    <link rel="stylesheet" href="./challenge-8.css">
+</head>
+<body>
+
+    <main class="container">
+
+        <h1>Tech Store</h1>
+
+        <section class="products">
+
+            <article class="product">
+                <h2>Wireless Mouse</h2>
+                <p>$25.00</p>
+
+                <button
+                    class="add-btn"
+                    data-name="Wireless Mouse"
+                    data-price="25">
+                    Add to Cart
+                </button>
+            </article>
+
+            <article class="product">
+                <h2>Mechanical Keyboard</h2>
+                <p>$80.00</p>
+
+                <button
+                    class="add-btn"
+                    data-name="Mechanical Keyboard"
+                    data-price="80">
+                    Add to Cart
+                </button>
+            </article>
+
+            <article class="product">
+                <h2>USB-C Hub</h2>
+                <p>$45.00</p>
+
+                <button
+                    class="add-btn"
+                    data-name="USB-C Hub"
+                    data-price="45">
+                    Add to Cart
+                </button>
+            </article>
+
+            <article class="product">
+                <h2>Webcam HD</h2>
+                <p>$60.00</p>
+
+                <button
+                    class="add-btn"
+                    data-name="Webcam HD"
+                    data-price="60">
+                    Add to Cart
+                </button>
+            </article>
+
+        </section>
+
+        <section class="cart">
+
+            <h2>Shopping Cart</h2>
+
+            <p id="items-count">
+                Items in cart: 0
+            </p>
+
+            <ul id="cart-list"></ul>
+
+            <h3 id="total">
+                Total: $0.00
+            </h3>
+
+        </section>
+
+    </main>
+
+    <script src="./challenge-8.js"></script>
+
+</body>
+</html>
