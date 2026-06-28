@@ -1,0 +1,13 @@
+.card {
+    padding: 12px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.new { border-left: 5px solid blue; }
+.contacted { border-left: 5px solid purple; }
+.qualified { border-left: 5px solid orange; }
+.proposal { border-left: 5px solid gold; }
+.won { border-left: 5px solid green; }
+.lost { border-left: 5px solid red; }

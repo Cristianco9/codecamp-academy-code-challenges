@@ -1,0 +1,201 @@
+.course-card {
+
+    background: white;
+
+    border-radius: 18px;
+
+    padding: 24px;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 18px;
+
+    transition: transform 0.3s ease,
+        box-shadow 0.3s ease;
+
+    height: 100%;
+
+}
+
+.course-card:hover {
+
+    transform: translateY(-6px);
+
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.12);
+
+}
+
+.course-header h2 {
+
+    margin: 0;
+
+    font-size: 1.4rem;
+
+    color: #1e293b;
+
+}
+
+.course-header p {
+
+    margin-top: 6px;
+
+    color: #64748b;
+
+}
+
+.course-details {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+}
+
+.course-details p {
+
+    margin: 0;
+
+    color: #475569;
+
+}
+
+.course-details strong {
+
+    color: #1e293b;
+
+}
+
+.progress-section {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 8px;
+
+}
+
+.progress-bar {
+
+    width: 100%;
+
+    height: 10px;
+
+    background: #e2e8f0;
+
+    border-radius: 999px;
+
+    overflow: hidden;
+
+}
+
+.progress-fill {
+
+    height: 100%;
+
+    background: #2563eb;
+
+    transition: width 0.3s ease;
+
+}
+
+.progress-text {
+
+    font-size: 0.9rem;
+
+    color: #475569;
+
+    text-align: right;
+
+}
+
+.course-footer {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+}
+
+.level-badge,
+.status-badge {
+
+    padding: 8px 14px;
+
+    border-radius: 999px;
+
+    font-weight: bold;
+
+    font-size: 0.85rem;
+
+}
+
+.beginner {
+
+    background: #dcfce7;
+
+    color: #166534;
+
+}
+
+.intermediate {
+
+    background: #fef3c7;
+
+    color: #92400e;
+
+}
+
+.advanced {
+
+    background: #fee2e2;
+
+    color: #b91c1c;
+
+}
+
+.open {
+
+    background: #dcfce7;
+
+    color: #166534;
+
+}
+
+.full {
+
+    background: #fee2e2;
+
+    color: #b91c1c;
+
+}
+
+@media (max-width: 768px) {
+
+    .course-footer {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+    }
+
+    .progress-text {
+
+        text-align: left;
+
+    }
+
+}

@@ -1,0 +1,88 @@
+div {
+    padding: 20px;
+    background: #f5f7fb;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #1f2937;
+}
+
+input,
+select {
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+    background: white;
+    transition: 0.2s ease;
+}
+
+input:focus,
+select:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.kpi-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.kpi-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.kpi-card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #374151;
+}
+
+.kpi-card strong {
+    font-size: 18px;
+    color: #111827;
+}
+
+.leads-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.empty-state {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+    color: #6b7280;
+}
+
+@media (max-width: 768px) {
+
+    input,
+    select {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .kpi-container {
+        grid-template-columns: 1fr;
+    }
+}
