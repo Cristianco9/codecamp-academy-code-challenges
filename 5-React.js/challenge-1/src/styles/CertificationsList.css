@@ -1,0 +1,83 @@
+.certifications-card {
+
+    max-width: 600px;
+
+    margin: 30px auto;
+
+    padding: 25px;
+
+    border-radius: 12px;
+
+    background: white;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+
+    text-align: center;
+
+}
+
+.certifications-card h2 {
+
+    margin-bottom: 20px;
+
+    color: #222;
+
+}
+
+.certifications-card button {
+
+    padding: 12px 22px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background-color: #2563eb;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+.certifications-card button:hover {
+
+    background-color: #1d4ed8;
+
+}
+
+.certification-list {
+
+    margin-top: 25px;
+
+    list-style: none;
+
+    padding: 0;
+
+}
+
+.certification-list li {
+
+    background: #f4f4f4;
+
+    margin-bottom: 12px;
+
+    padding: 15px;
+
+    border-radius: 8px;
+
+    transition: 0.3s;
+
+}
+
+.certification-list li:hover {
+
+    transform: translateY(-2px);
+
+    background: #ececec;
+
+}

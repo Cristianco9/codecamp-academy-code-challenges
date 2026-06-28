@@ -1,0 +1,211 @@
+.ticket-card {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    background: white;
+
+    border-radius: 18px;
+
+    padding: 24px;
+
+    box-shadow: 0 10px 25px
+        rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+
+    min-height: 480px;
+
+}
+
+.ticket-card:hover {
+
+    transform: translateY(-6px);
+
+}
+
+.ticket-avatar {
+
+    width: 72px;
+
+    height: 72px;
+
+    margin: 0 auto 20px;
+
+    border-radius: 50%;
+
+    background: #2563eb;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+    letter-spacing: 1px;
+
+}
+
+.ticket-card h2 {
+
+    text-align: center;
+
+    margin-bottom: 20px;
+
+    color: #1e293b;
+
+    font-size: 1.4rem;
+
+}
+
+.ticket-card p {
+
+    margin-bottom: 14px;
+
+    color: #475569;
+
+    line-height: 1.6;
+
+}
+
+.ticket-card strong {
+
+    color: #1e293b;
+
+}
+
+.priority {
+
+    margin-top: 8px;
+
+    padding: 10px;
+
+    border-radius: 10px;
+
+    text-align: center;
+
+    font-weight: bold;
+
+}
+
+.high {
+
+    background: #fee2e2;
+
+    color: #b91c1c;
+
+}
+
+.medium {
+
+    background: #fef3c7;
+
+    color: #92400e;
+
+}
+
+.low {
+
+    background: #dcfce7;
+
+    color: #166534;
+
+}
+
+.status {
+
+    margin-top: auto;
+
+    margin-bottom: 20px;
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    text-align: center;
+
+    font-weight: bold;
+
+}
+
+.resolved {
+
+    background: #d1fae5;
+
+    color: #065f46;
+
+}
+
+.open {
+
+    background: #fee2e2;
+
+    color: #991b1b;
+
+}
+
+.btn-resolve,
+.btn-reopen {
+
+    width: 100%;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    color: white;
+
+    font-size: 1rem;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+.btn-resolve {
+
+    background: #2563eb;
+
+}
+
+.btn-resolve:hover {
+
+    background: #1d4ed8;
+
+}
+
+.btn-reopen {
+
+    background: #dc2626;
+
+}
+
+.btn-reopen:hover {
+
+    background: #b91c1c;
+
+}
+
+@media (max-width: 768px) {
+
+    .ticket-card {
+
+        min-height: auto;
+
+    }
+
+}

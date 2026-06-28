@@ -1,0 +1,112 @@
+.movie-card {
+
+    background: white;
+
+    border-radius: 18px;
+
+    padding: 24px;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 14px;
+
+}
+
+.movie-card:hover {
+
+    transform: translateY(-5px);
+
+}
+
+.movie-card h2 {
+
+    margin: 0;
+
+    color: #1e293b;
+
+}
+
+.movie-card p {
+
+    margin: 0;
+
+    line-height: 1.5;
+
+}
+
+.status {
+
+    font-weight: bold;
+
+    padding: 10px;
+
+    border-radius: 8px;
+
+    text-align: center;
+
+}
+
+.watched {
+
+    background: #d1fae5;
+
+    color: #065f46;
+
+}
+
+.not-watched {
+
+    background: #fef3c7;
+
+    color: #92400e;
+
+}
+
+.btn-watch,
+.btn-unwatch {
+
+    border: none;
+
+    border-radius: 10px;
+
+    padding: 12px;
+
+    color: white;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+    font-size: 16px;
+
+}
+
+.btn-watch {
+
+    background: #2563eb;
+
+}
+
+.btn-watch:hover {
+
+    background: #1d4ed8;
+
+}
+
+.btn-unwatch {
+
+    background: #dc2626;
+
+}
+
+.btn-unwatch:hover {
+
+    background: #b91c1c;
+
+}
