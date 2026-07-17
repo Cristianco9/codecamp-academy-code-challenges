@@ -1,4 +1,4 @@
-# Code Challenge: Create a New React Component with Bootstrap
+# Code Challenge 2: Create a New React Component with Bootstrap
 
 ---
 

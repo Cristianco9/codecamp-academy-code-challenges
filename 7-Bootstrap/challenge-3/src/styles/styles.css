@@ -1,0 +1,11 @@
+/* ------------------------------------------------ */
+/* Benefits Section                                 */
+/* ------------------------------------------------ */
+
+#benefits .card i {
+    transition: transform .3s ease;
+}
+
+#benefits .card:hover i {
+    transform: scale(1.15);
+}
