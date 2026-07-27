@@ -23,6 +23,8 @@ The repository includes structured learning content covering:
 - Event-Driven Programming
 - React.js development
 - Vue.js development
+- Bootstrap CSS styles
+- Tailwind CSS styles
 
 Each section is designed to progressively build students' understanding of
 modern software development concepts, from foundational programming logic to
@@ -67,6 +69,8 @@ This repository is organized into multiple learning modules:
 - Event-Driven Programming `Challenges`
 - React.js `Challenges`
 - Vue.js `Challenges`
+- Bootstrap `Challenges`
+- TailwindCSS `Challenges`
 
 Each module contains practical exercises designed to simulate real-world
 software development scenarios.
