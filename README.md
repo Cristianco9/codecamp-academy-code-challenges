@@ -25,6 +25,7 @@ The repository includes structured learning content covering:
 - Vue.js development
 - Bootstrap CSS styles
 - Tailwind CSS styles
+- Relational databases
 
 Each section is designed to progressively build students' understanding of
 modern software development concepts, from foundational programming logic to
@@ -71,6 +72,7 @@ This repository is organized into multiple learning modules:
 - Vue.js `Challenges`
 - Bootstrap `Challenges`
 - TailwindCSS `Challenges`
+- Relational databases `Challenges`
 
 Each module contains practical exercises designed to simulate real-world
 software development scenarios.
