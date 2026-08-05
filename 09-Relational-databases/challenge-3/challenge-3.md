@@ -1,4 +1,4 @@
-# Code Challenge: Expand the Hospital Management System
+# Code Challenge 3: Expand the Hospital Management System
 
 ## Objective
 
